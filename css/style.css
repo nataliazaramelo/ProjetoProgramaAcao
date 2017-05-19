@@ -1,0 +1,222 @@
+/*configurações gerais*/
+body{
+	background:#FFF0F5;
+}
+iframe{
+	margin-top: 50px;
+	max-width: 100%;
+}
+footer{
+	margin-top: 30px;
+	font-family: 'Sacramento', cursive;
+	color: #f09699;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+/*fim configurações gerais*/
+
+/*navBar*/
+/*cabecalho*/
+
+#cabecalho{
+position: fixed;
+right: 0;
+left: 0;
+z-index: 1030;
+
+}
+/*fim do cabecalho*/
+.navbar.navbar-default{
+position: fixed;
+right: 0;
+left: 0;
+z-index: 1030;
+}
+.nav.navbar-nav{
+display: flex;
+justify-content: space-around;
+}
+.navbar-brand img{
+ height:50px;
+}
+
+.container-fluid{
+background:#f09699; 
+}
+
+#bs-example-navbar-collapse-1 a{
+	color: white;
+	font-family: "Open Sans";
+	font-size: 18px;
+}
+
+.navbar-header button{
+	background: white;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: white;
+}
+.navbar-brand{
+	font-family: 'Sacramento', cursive;
+	
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 32px;
+}
+/* fim navBar*/
+
+/*carousel*/
+.carousel{
+	margin-top: 65px;
+	margin-bottom: 30px;
+}
+
+.carousel img{
+ width: 100%;
+}
+
+#carousel-example-generic{
+	margin-bottom:125px;
+}
+
+
+/* fim do carousel*/
+
+/*apresentação*/
+#programacao{
+	min-height: 90vh;
+}
+#problema{
+	min-height: 90vh;
+	padding:100px 0;
+}
+
+.logoTexto img{
+	height: 30px;
+}
+.apresentacao{
+	text-align: justify;
+	margin-bottom: 100px;
+}
+
+#apresentar{
+ font-family: 'Baloo', cursive;
+ font-size: 25px;
+ margin-bottom: 20px;
+}
+.apresentacao p{
+ 	font-family: 'Roboto', sans-serif;
+ }
+.apresentacao p{
+	 font-size: 20px;	 	 
+}
+
+/*fim apresentação/
+
+/*problematica*/
+.problematica{
+	text-align: justify;
+	margin-bottom: 30px;
+}
+
+.problematica h3{
+ font-family: 'Baloo', cursive;
+ font-size: 25px;
+ margin-bottom: 20px;
+}
+.problematica p{
+ 	font-family: 'Roboto', sans-serif;
+ 	 font-size: 20px;
+ }
+.problematica h3{
+	 font-size: 20px;	 	 
+}
+
+.depoimento p{
+ 	font-family: 'Lora', serif;
+ 	margin-left: 25px;
+}
+/*fim problematica */
+
+/*formulario*/
+
+#contato{
+	padding: 100px 0;
+	min-height: 40vh;
+}
+
+.botao.formulario{
+	margin-top: 5px;
+	margin-bottom: 25px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+h4{
+ font-weight: bolder;
+ margin-bottom: 25PX;
+}
+
+.modal-content{
+font-family: 'Baloo', cursive;
+font-size: 20px;
+text-align: center;
+}
+
+.form-group.vermelho label{
+ color: red;
+}
+
+.imagem.formulario {
+	display: none;
+}
+
+/*fim formulario*/
+
+/*slogan*/
+
+/*fim slogan*/
+
+/*footer*/
+.rodape p{
+	margin-top: 50px;
+}
+/*footer*/
+
+
+/*Tablet*/
+
+/*fim tablet*/
+
+
+/*celular*/
+@media (max-width: 700px){
+
+.imagem.programa img{
+	display: none;
+}
+.imagem.formulario{
+	display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+}
+ footer{
+ 	padding-top: 10px;
+ }
+}
+/*celular*/
+@media (max-width: 400px){
+.nav.navbar-nav{
+display: inline-block;
+justify-content: space-around;
+}
+.nav.navbar-nav.navbar-right{
+display: flex;
+  justify-content: space-around;
+
+}
+}
